@@ -14,7 +14,21 @@ This is an educational implementation that shows how neural networks and backpro
   - [Basic Usage](#Basic-Usage)
   - [1. Simple Scalar Operations](#1.-Simple-Scalar-Operations)
   - [2. Building a Neural Network](#2.-Building-a-Neural-Network)
-
+  - [3. Training Example](#3.-Training-Example)
+  - [4. Visualizing Computation Graphs](#4.-Visualizing-Computation-Graphs)
+- [Core Components](#Core-Components)
+  - [Value Class](#Value-Class)
+  - [Neural Network Components](#Neural-Network-Components)
+  - [Visualization](#Visualization)
+- [Examples](#Examples)
+- [How It Works](#How-It-Works)
+  - [Automatic Differentiation](#Automatic-Differentiation)
+  - [Neural Networks](#NeuralNetworks)
+- [Educational Value](#Educational-Value)
+- [Limitations](#Limitations)
+- [Further Reading](#Further-Reading)
+- [Contributing](#Contributing)
+- [License](#License)
 ## Project Structure
 
 ```
@@ -187,7 +201,7 @@ See `trace.py` for complete examples:
 3. **Single neuron**: 2D neuron with weights and bias
 4. **Small MLP**: Multi-layer network showing full backpropagation
 
-## 🔍 How It Works
+## How It Works
 
 ### Automatic Differentiation
 
