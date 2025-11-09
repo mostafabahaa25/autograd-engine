@@ -10,10 +10,10 @@ This is an educational implementation that shows how neural networks and backpro
 
 - [Project Structure](#Project-Structure)
 - [Getting Started](#Getting-Started)
-  -[Prerequisites](#Prerequisites)
-  -[Basic Usage](#Basic-Usage)
-    -[1. Simple Scalar Operations](#1.-Simple-Scalar-Operations)
-    -[2. Building a Neural Network](#2.-Building-a-Neural-Network)
+  - [Prerequisites](#Prerequisites)
+  - [Basic Usage](#Basic-Usage)
+  - [1. Simple Scalar Operations](#1.-Simple-Scalar-Operations)
+  - [2. Building a Neural Network](#2.-Building-a-Neural-Network)
 
 ## Project Structure
 
