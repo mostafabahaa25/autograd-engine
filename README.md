@@ -242,7 +242,3 @@ This is an educational project. Feel free to:
 ## License
 
 This project is intended for educational purposes.
-
-## Acknowledgments
-
-Inspired by Andrej Karpathy's micrograd and the broader deep learning community's efforts to make neural networks accessible and understandable.
