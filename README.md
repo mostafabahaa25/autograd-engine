@@ -6,6 +6,15 @@ This project serves as a research-oriented exploration of the core algorithms be
 The implementation aims to provide a transparent and educational perspective on how neural networks learn through backpropagation, offering an interpretable foundation for further experimentation in AI systems design and computational graph theory.
 This is an educational implementation that shows how neural networks and backpropagation work under the hood, operating on individual scalars rather than tensors.
 
+## Table of contents
+
+- [Project Structure](#Project-Structure)
+- [Getting Started](#Getting-Started)
+  -[Prerequisites](#Prerequisites)
+  -[Basic Usage](#Basic-Usage)
+    -[1. Simple Scalar Operations](#1.-Simple-Scalar-Operations)
+    -[2. Building a Neural Network](#2.-Building-a-Neural-Network)
+
 ## Project Structure
 
 ```
