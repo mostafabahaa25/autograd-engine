@@ -1,5 +1,5 @@
 from graphviz import Digraph
-from engine import Value
+from autograd.engine import Value
 
 def trace(root_node):
     """
@@ -117,7 +117,7 @@ graph_complex = draw_dot(final_output)
 # EXAMPLE 3: 2D Neuron computation graph
 # ============================================================================
 import random
-import nn
+from autograd import nn
 
 # Set random seed for reproducibility
 random.seed(1337)
