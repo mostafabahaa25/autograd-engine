@@ -8,12 +8,18 @@ This is an educational implementation that shows how neural networks and backpro
 
 ## Project Structure
 
+
+
 ```
 .
-├── engine.py          # Core autograd engine with Value class
-├── nn.py             # Neural network components (Module, Neuron, Layer, MLP)
+├── autograd
+│   ├── engine.py     # Core autograd engine with Value class
+│   └── nn.py         # Neural network components (Module, Neuron, Layer, MLP)
+├── demo.ipynb
+├── demo.py
+├── example.py
 ├── trace.py          # Visualization tools for computation graphs
-└── README.md         # This file
+└── README.md
 ```
 
 ## Getting Started
