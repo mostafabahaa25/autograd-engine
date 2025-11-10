@@ -6,6 +6,29 @@ This project serves as a research-oriented exploration of the core algorithms be
 The implementation aims to provide a transparent and educational perspective on how neural networks learn through backpropagation, offering an interpretable foundation for further experimentation in AI systems design and computational graph theory.
 This is an educational implementation that shows how neural networks and backpropagation work under the hood, operating on individual scalars rather than tensors.
 
+## Table of contents
+
+- [Project Structure](#Project-Structure)
+- [Getting Started](#Getting-Started)
+  - [Prerequisites](#Prerequisites)
+  - [Basic Usage](#Basic-Usage)
+  - [1. Simple Scalar Operations](#1.-Simple-Scalar-Operations)
+  - [2. Building a Neural Network](#2.-Building-a-Neural-Network)
+  - [3. Training Example](#3.-Training-Example)
+  - [4. Visualizing Computation Graphs](#4.-Visualizing-Computation-Graphs)
+- [Core Components](#Core-Components)
+  - [Value Class](#Value-Class)
+  - [Neural Network Components](#Neural-Network-Components)
+  - [Visualization](#Visualization)
+- [Examples](#Examples)
+- [How It Works](#How-It-Works)
+  - [Automatic Differentiation](#Automatic-Differentiation)
+  - [Neural Networks](#NeuralNetworks)
+- [Educational Value](#Educational-Value)
+- [Limitations](#Limitations)
+- [Further Reading](#Further-Reading)
+- [Contributing](#Contributing)
+- [License](#License)
 ## Project Structure
 
 
@@ -184,7 +207,7 @@ See `trace.py` for complete examples:
 3. **Single neuron**: 2D neuron with weights and bias
 4. **Small MLP**: Multi-layer network showing full backpropagation
 
-## 🔍 How It Works
+## How It Works
 
 ### Automatic Differentiation
 
@@ -248,7 +271,3 @@ This is an educational project. Feel free to:
 ## License
 
 This project is intended for educational purposes.
-
-## Acknowledgments
-
-Inspired by Andrej Karpathy's micrograd and the broader deep learning community's efforts to make neural networks accessible and understandable.
