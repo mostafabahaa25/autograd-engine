@@ -163,6 +163,7 @@ graph.render('computation_graph', format='png')
 
 <img  src="simple_example.svg">
 </p>
+
 ## Core Components
 
 ### Value Class (`engine.py`)
