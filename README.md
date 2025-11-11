@@ -12,10 +12,10 @@ This is an educational implementation that shows how neural networks and backpro
 - [Getting Started](#Getting-Started)
   - [Prerequisites](#Prerequisites)
   - [Basic Usage](#Basic-Usage)
-  - [1. Simple Scalar Operations](#1.-Simple-Scalar-Operations)
-  - [2. Building a Neural Network](#2.-Building-a-Neural-Network)
-  - [3. Training Example](#3.-Training-Example)
-  - [4. Visualizing Computation Graphs](#4.-Visualizing-Computation-Graphs)
+  - [1. Simple Scalar Operations](#1.Simple-Scalar-Operations)
+  - [2. Building a Neural Network](#2.Building-a-Neural-Network)
+  - [3. Training Example](#3.Training-Example)
+  - [4. Visualizing Computation Graphs](#4.Visualizing-Computation-Graphs)
 - [Core Components](#Core-Components)
   - [Value Class](#Value-Class)
   - [Neural Network Components](#Neural-Network-Components)
@@ -159,7 +159,10 @@ graph
 # Or save to file (requires Graphviz installed)
 graph.render('computation_graph', format='png')
 ```
+<p align="center">
 
+<img  src="simple_example.svg">
+</p>
 ## Core Components
 
 ### Value Class (`engine.py`)
